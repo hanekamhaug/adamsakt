@@ -749,6 +749,11 @@ p {
   position: relative;
   z-index: 9;
 }
+
+.contact h6 {
+    color: #ffffff;
+}
+
 .contact .section-head {
   padding-top: 50px;
   color: #f4f4f4;
