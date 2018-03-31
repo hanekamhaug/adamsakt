@@ -685,9 +685,10 @@ p {
   bottom: 0;
   right: 0;
   left: 0;
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(0, 0, 0, 0.9);
   z-index: 1;
 }
+
 .hire .container {
   position: relative;
   z-index: 9;
@@ -748,7 +749,7 @@ p {
   position: relative;
   z-index: 9;
 }
-.contact .head-left {
+.contact .section-head {
   padding-top: 50px;
   color: #f4f4f4;
 }
@@ -759,7 +760,7 @@ p {
   width: 100%;
   padding: 10px;
   margin-bottom: 15px;
-  border: 0;
+  /*border: 0;*/
   background: rgba(20, 20, 20, 0.5);
   border: 1px solid rgba(250, 250, 250, 0.2);
   color: #eee;
@@ -768,8 +769,8 @@ p {
   height: 160px;
 }
 .contact .form input[type="submit"] {
-  border: 1px solid #FF305B;
-  background: #FF305B;
+  border: 1px solid #ffc100;
+  background: #ffc100;
   font-weight: 700;
   letter-spacing: 1px;
   text-transform: uppercase;
@@ -778,13 +779,13 @@ p {
 }
 .contact .form input[type="submit"]:hover {
   background: transparent;
-  color: #FF305B;
+  color: #ffc100;
 }
 .contact .info {
   text-align: center;
   color: #fff;
-  background: rgba(20, 20, 20, 0.5);
-  border: 1px solid rgba(250, 250, 250, 0.2);
+  /*background: rgba(20, 20, 20, 0.5);
+  border: 1px solid rgba(250, 250, 250, 0.2);*/
   padding: 50px 0;
 }
 .contact .info .item {
@@ -793,7 +794,7 @@ p {
 .contact .info .item .icon {
   font-size: 30px;
   margin-bottom: 20px;
-  color: #FF305B;
+  color: #ffc100;
 }
 .contact .info .item h6 {
   font-family: "Muli", sans-serif;
@@ -810,7 +811,7 @@ p {
   margin: 0 15px;
 }
 .contact .info .social-icon span:hover {
-  color: #FF305B;
+  color: #ffc100;
 }
 .contact .copy {
   margin-top: 80px;
