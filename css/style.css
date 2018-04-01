@@ -842,7 +842,7 @@ p {
     background: transparent !important;
   }
   .navbar-default .navbar-toggle .icon-bar {
-    background: #fff;
+    background: #ffffff !important;
   }
   .navbar-default .navbar-nav li a {
     color: #111 !important;
@@ -859,7 +859,7 @@ p {
   }
 
   .nav-scroll .navbar-toggle .icon-bar {
-    background: #111;
+      background: #FFFFFF !important;
   }
 
   .resume .tabs-icon li {
