@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" serverName="sftp.domeneshop.no" createEmptyFolders="true">
+  <component name="PublishConfigData" promptOnRemoteOverwrite="CHECK_CONTENT" serverName="ftp.domeneshop.no" createEmptyFolders="true" showNewOnTargetInSync="false">
     <serverData>
-      <paths name="sftp.domeneshop.no">
+      <paths name="ftp.domeneshop.no">
         <serverdata>
           <mappings>
-            <mapping deploy="/home/2/a/adamsakt/www" local="$PROJECT_DIR$" web="/home/2/a/adamsakt/www" />
+            <mapping deploy="/www" local="$PROJECT_DIR$" web="/www" />
           </mappings>
         </serverdata>
       </paths>
