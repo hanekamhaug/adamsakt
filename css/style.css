@@ -234,6 +234,8 @@ p {
 .nav-scroll .logo {
   padding-top: 5px;
 }
+
+
 .nav-scroll .navbar-nav > li > a {
   color: #eeeeee !important;
 }
@@ -324,7 +326,7 @@ p {
     color: #ffffff;
 }
 .hero .hero-content .info {
-  margin-top: 50px;
+  margin-top: 35px;
 }
 .hero .hero-content .info h5 {
   font-size: 14px;
@@ -829,21 +831,21 @@ p {
 /* -------------------------------------------------------
                     Responsive
 -------------------------------------------------------- */
-@media screen and (max-width: 767px) {
+
+@media screen and (max-width: 1200px) {
   .navbar-default .logo {
     margin-left: 20px;
   }
   .navbar-default .navbar-toggle {
     background: none !important;
     margin-top: 15px !important;
+    margin-left: 15px !important;
     border: none !important;
   }
   .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
     background: transparent !important;
   }
-  .navbar-default .navbar-toggle .icon-bar {
-    background: #ffffff !important;
-  }
+
   .navbar-default .navbar-nav li a {
     color: #111 !important;
   }
@@ -858,8 +860,8 @@ p {
     margin-top: 5px;
   }
 
-  .nav-scroll .navbar-toggle .icon-bar {
-      background: #FFFFFF !important;
+ .nav-scroll .navbar-toggle .icon-bar {
+      background: #FFFFFF;
   }
 
   .resume .tabs-icon li {
@@ -870,7 +872,7 @@ p {
     margin: 10px 2px;
   }
 }
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 200px) {
   .navbar-default .navbar-nav > li {
     margin: 25px 15px 0;
     font-size: 13px;
