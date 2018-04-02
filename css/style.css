@@ -325,6 +325,9 @@ p {
     background-color: #000000;
     color: #ffffff;
 }
+.hero .hero-img {
+    margin-bottom: 40px;
+}
 .hero .hero-content .info {
   margin-top: 35px;
 }
@@ -832,7 +835,7 @@ p {
                     Responsive
 -------------------------------------------------------- */
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 767px) {
   .navbar-default .logo {
     margin-left: 20px;
   }
@@ -872,7 +875,7 @@ p {
     margin: 10px 2px;
   }
 }
-@media screen and (max-width: 200px) {
+@media screen and (max-width: 991px) {
   .navbar-default .navbar-nav > li {
     margin: 25px 15px 0;
     font-size: 13px;
