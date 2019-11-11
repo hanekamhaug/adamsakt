@@ -303,6 +303,37 @@ p {
   text-transform: uppercase;
 }
 
+.header .v-bottom {
+  z-index: 9;
+}
+.header .caption2 {
+  text-align: center;
+  margin-top: 600px;
+  color: #ff001b;
+}
+.header .caption2 h4 {
+  margin-bottom: 30px;
+  font-size: 16px;
+}
+.header .caption2 h1 {
+  margin-bottom: 0px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.header .caption2 .type span {
+  font-size: 37px;
+  font-weight: 100;
+}
+.header .caption2 h3 {
+  letter-spacing: 1px;
+  display: inline-block;
+  margin-right: 20px;
+  font-weight: 400;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
 #particles-js {
   z-index: 2;
   position: relative;
